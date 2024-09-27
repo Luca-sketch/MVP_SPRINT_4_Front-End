@@ -1,0 +1,63 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo com transparência */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .popup-container {
+    position: relative;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    width: 90%;
+    max-width: 900px;
+    height: 80vh; /* Definindo altura do popup */
+    border: 5px solid rgba(255, 255, 255, 0.3); /* Borda transparente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.3); /* Fundo branco com transparência */
+  }
+  
+  .popup-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/Image.jpg"); /* Verifique o caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2); /* Cor de fundo de fallback */
+    z-index: -1; /* Colocando a imagem atrás do conteúdo */
+    border-radius: 10px;
+  }
+  
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .popup-title {
+    z-index: 1;
+  }
+  
+  .popup-message {
+    z-index: 1;
+  }
+  

@@ -1,0 +1,14 @@
+.header {
+    padding: 20px;
+    background-color: #DCDCDC; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+  }
+  
+  .header-title {
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    margin: 0; /* Remove a margem padrão */
+  }
+  
