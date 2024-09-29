@@ -9,14 +9,14 @@ Este repositório contém a interface frontend desenvolvida em Next.js. A interf
 - Formulário para entrada de dados dos clientes.
 - Comunicação com a API backend para predição de churn.
 - Exibição do resultado da predição diretamente na interface.
-- 
-![Exemplo da aplicação](https://drive.google.com/uc?export=view&id=1SyLSClYQzteZPm3uuRjD96Kr1lzOi3-b)
 
 ## Como funciona
 
 1. O usuário insere os dados dos clientes.
 2. O frontend envia uma requisição para a API backend.
 3. O resultado da predição de churn é exibido diretamente na interface.
+
+![Exemplo da aplicação](https://drive.google.com/uc?export=view&id=1SyLSClYQzteZPm3uuRjD96Kr1lzOi3-b)
 
 ## Estrutura do Projeto
 
