@@ -30,6 +30,8 @@ O projeto está dividido em três repositórios e um vídeo explicativo:
 
 ## Como executar
 
+Depois de copiar toda a pasta deste repositório, siga essa sequência:
+
 1. Instale as dependências:
 ```bash
 npm install
